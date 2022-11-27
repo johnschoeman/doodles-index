@@ -1,0 +1,26 @@
+{
+  "name": "doodles-index",
+  "version": "1.0.0",
+  "description": "An index for doodles.",
+  "main": "index.js",
+  "scripts": {
+    "build": "bin/build.sh",
+    "start": "node bin/serve_dev.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.15.15",
+    "prettier": "^2.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "browser-sync": "^2.27.10"
+  }
+}
