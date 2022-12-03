@@ -1,30 +1,30 @@
 import * as ReactDOM from "react-dom/client"
 
-const CAMP_URL = "https://www.doodles.camp/#/doodles/"
-const KITCHEN_URL = "https://www.doodles.kitchen/doodles/"
+const ELM_URL = "https://clinquant-chebakia-3013c1.netlify.app/#/doodles/"
+const TS_URL = "https://www.doodles.kitchen/doodles/"
 
 type Doodle = {
-  baseUrl: typeof CAMP_URL | typeof KITCHEN_URL
+  baseUrl: typeof ELM_URL | typeof TS_URL
   path: string
   title: string
 }
 
 const doodles: Doodle[] = [
-  { baseUrl: CAMP_URL, path: "modular-times-table", title: "modular" },
-  { baseUrl: CAMP_URL, path: "black-sheep", title: "black sheep" },
-  { baseUrl: CAMP_URL, path: "lock-puzzle", title: "lock puzzle" },
-  { baseUrl: CAMP_URL, path: "squares", title: "squares" },
-  { baseUrl: CAMP_URL, path: "dots", title: "dots" },
-  { baseUrl: KITCHEN_URL, path: "b_pad.html", title: "b pad" },
-  { baseUrl: KITCHEN_URL, path: "tic_tac_toe.html", title: "tic tac toe" },
-  { baseUrl: KITCHEN_URL, path: "recaman.html", title: "recaman" },
-  { baseUrl: KITCHEN_URL, path: "solar_system_2.html", title: "system 2" },
-  { baseUrl: KITCHEN_URL, path: "asteriods.html", title: "asteriods" },
-  { baseUrl: KITCHEN_URL, path: "tree.html", title: "tree" },
-  { baseUrl: KITCHEN_URL, path: "solar_system.html", title: "system" },
-  { baseUrl: KITCHEN_URL, path: "mandlebrot.html", title: "mandlebrot" },
-  { baseUrl: KITCHEN_URL, path: "koch_curve.html", title: "koch curve" },
-  { baseUrl: KITCHEN_URL, path: "mirror_prime.html", title: "mirror primes" },
+  { baseUrl: ELM_URL, path: "modular-times-table", title: "modular" },
+  { baseUrl: ELM_URL, path: "black-sheep", title: "black sheep" },
+  { baseUrl: ELM_URL, path: "lock-puzzle", title: "lock puzzle" },
+  { baseUrl: ELM_URL, path: "squares", title: "squares" },
+  { baseUrl: ELM_URL, path: "dots", title: "dots" },
+  { baseUrl: ELM_URL, path: "recaman", title: "recaman" },
+  { baseUrl: TS_URL, path: "b_pad", title: "b pad" },
+  { baseUrl: TS_URL, path: "tic_tac_toe", title: "tic tac toe" },
+  { baseUrl: TS_URL, path: "solar_system_2", title: "system 2" },
+  { baseUrl: TS_URL, path: "asteroids", title: "asteroids" },
+  { baseUrl: TS_URL, path: "tree", title: "tree" },
+  { baseUrl: TS_URL, path: "solar_system", title: "system" },
+  { baseUrl: TS_URL, path: "mandlebrot", title: "mandlebrot" },
+  { baseUrl: TS_URL, path: "koch_curve", title: "koch curve" },
+  { baseUrl: TS_URL, path: "mirror_primes", title: "mirror primes" },
 ]
 
 const DoodleIndex = () => {
