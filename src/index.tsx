@@ -1,6 +1,6 @@
 import * as ReactDOM from "react-dom/client"
 
-const ELM_URL = "https://clinquant-chebakia-3013c1.netlify.app/#/doodles/"
+const ELM_URL = "https://clinquant-chebakia-3013c1.netlify.app/"
 const TS_URL = "https://www.doodles.kitchen/doodles/"
 
 type Doodle = {
@@ -10,9 +10,9 @@ type Doodle = {
 }
 
 const doodles: Doodle[] = [
-  { baseUrl: ELM_URL, path: "modular-times-table", title: "modular" },
-  { baseUrl: ELM_URL, path: "black-sheep", title: "black sheep" },
-  { baseUrl: ELM_URL, path: "lock-puzzle", title: "lock puzzle" },
+  { baseUrl: ELM_URL, path: "modular_times_table", title: "modular" },
+  { baseUrl: ELM_URL, path: "black_sheep_jump", title: "black sheep" },
+  { baseUrl: ELM_URL, path: "lock_puzzle", title: "lock puzzle" },
   { baseUrl: ELM_URL, path: "squares", title: "squares" },
   { baseUrl: ELM_URL, path: "dots", title: "dots" },
   { baseUrl: ELM_URL, path: "recaman", title: "recaman" },
