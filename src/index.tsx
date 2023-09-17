@@ -10,6 +10,7 @@ type Doodle = {
 }
 
 const doodles: Doodle[] = [
+  { baseUrl: TS_URL, path: "triangle_subdivision", title: "triangle subdivision" },
   { baseUrl: ELM_URL, path: "modular_times_table", title: "modular" },
   { baseUrl: ELM_URL, path: "black_sheep_jump", title: "black sheep" },
   { baseUrl: ELM_URL, path: "lock_puzzle", title: "lock puzzle" },
